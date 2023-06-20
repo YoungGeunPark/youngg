@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>맛집의 민족</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" text="type/css" href="./test.css" />
+
+    <style>
+        .title-text {
+  text-align: center;
+  font-size: 50px;
+  font-weight: 700;
+}
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.content-text {
+  text-align: center;
+  font-size: 20px;
+}
+
+.content-img {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 50px;
+}
+
+#search-input {
+  width: 50rem;
+  height: 50px;
+  text-align: center;
+  background-color: rgb(255, 254, 246);
+  border-style: none;
+}
+
+.img-text {
+  text-align: center;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+img{
+width : 30vw;
+}
+
+@media only screen and (min-width: 600px) {
+  body {
+    background-color: white;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  body {
+    background-color: wheat;
+  }
+}
+
+h1 {
+  color: white;
+}
+
+@media only screen and (min-width: 900px) {
+  h1 {
+    color: yellow;
+  }
+}
+#img-crop{
+    width: 20vw;
+    height: 20vw;
+}
+#img-crop > img{
+width : 100%;
+height: 100%;
+}
+.btn{
+  border-style: none;
+  border-radius: 30px;
+  font-size: 15px;
+  background-color: rgb(237, 169, 60);
+  color: white;
+  width: 80px;
+  height: 60px;
+  font-weight: 700;
+}
+.btn :hover{
+  cursor: pointer;
+}
+
+
+
+
+    </style>
+  </head>
+  <body>
+    <div class="title"><p class="title-text">맛집의 민족</p></div>
+
+    <div class="content">
+      <form>
+        <input
+          type="text"
+          id="search-input"
+          name="search"
+          placeholder="검색어를 입력하세요"
+        />
+        <button class="btn">선택</button>
+      </form>
+    </div>
+    <div class="content-img">
+      <div>
+        <div id="img-crop">
+        <img src="https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMjA3MjZfMjkz%2FMDAxNjU4ODE4NzcyOTcy.SLBR2CRc7Frwgr7ljQVSXsqVEwS2mT29aG_B8mumFlUg.Bp8c2Qey6dIa90J11rDaJbfY4CzWQ5JNsuihPwUCV2Ag.JPEG.dnjswjd0070%2F20220515%25A3%25DF140801.jpg&type=sc960_832" alt="이미지 설명" />
+        </div><p class="img-text">비소원<p><br>경기 안양시 동안구 관양동 1437-26<br>인덕원역 8번출구에서 696m</p></p>
+      </div>
+      <div>
+        <div id="img-crop">
+        <img src="https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMzAzMDFfMjY0%2FMDAxNjc3NjU2MDEyMzA1.C0oPK8FDB01TY5zA4Jvc9KK-ahw6-ehVnUh79SHb4MQg.TT84VfQL-wf8SlNGuIu4Ccl1-F00FflJsDdGH-cCSE8g.JPEG.pyyyyj%2FIMG_3883.jpg&type=a340" alt="이미지 설명" />
+        </div><p class="img-text">공탄<p><br>경기 안양시 동안구 인덕원로 30 1층 공탄<br>인덕원역 7번출구에서 215m</p></p>
+      </div>
+
+      <div>
+        <div id="img-crop">
+        <img src="https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMjA4MDNfMTA2%2FMDAxNjU5NTA0Nzc4NzU0.MLpl5m2sZF6kiP9yktWxgQOf-Ew7tOPH6w4gwe76BBcg.CzI9rtmbfKDyoD7UeovMjutg7Bygip4__hv-Y5wQJ-4g.JPEG.nizzimi%2Foutput_1351938102.jpg&type=sc960_832" alt="이미지 설명" />
+        </div><p class="img-text">구들짱 황소곱창<p><br>경기 안양시 동안구 인덕원로 33 <br> 인덕원역 7번출구에서 170m</p></p>
+      </div>
+    </div>
+
+    
+    <div class="content-img">
+      <div>
+        <div id="img-crop">
+        <img src="https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMzA0MDRfMjQ2%2FMDAxNjgwNjE2MTA2NDE0.6VU-77sLLMV-oExlen9iXby_bWZLP-BjvXWkNvm5TbIg.Uy6lKnaO3_dC_LkuQeJLd-rjUXFVC4KdLtKobadeDEQg.JPEG.ga__00%2FIMG_2579.jpg&type=sc960_832" alt="이미지 설명" />
+        </div><p class="img-text">원시 쪽갈비<p><br> 경기 안양시 동안구 인덕원로 24번길 10 <br> 인덕원역 5번출구에서 202m</p></p>
+      </div>
+      <div>
+        <div id="img-crop">
+        <img src="https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMjEwMDhfMjYg%2FMDAxNjY1MTkzMDUyNjkz.Ojn5WhDTazjQod05ZeHmM_ndjzQzR1SDqcomQXnyI5kg.WSCxA0QtVLXT9g0MEbXIk30fhdFeZoMkfhEWydtdGIwg.JPEG.yo_h_o%2FIMG_7921.jpg&type=sc960_832" alt="이미지 설명" />
+        </div><p class="img-text">우리왕뚜껑생삼겹살<p><br>경기 안양시 동안구 인덕원로 30<br>인덕원역 7번출구에서 215m</p></p>
+      </div>
+      <div>
+        <div id="img-crop">
+        <img src="https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMzAxMDZfOTMg%2FMDAxNjcyOTU1NTA0NDMw.jMPYFWDZPKzHx-vHIhO8gSaLdIqgCweVErd7s69_3_4g.nBvJEJHOFRDvbiWTSfeMcfXU_arQLNXbZDkysWXBtJ0g.JPEG.yujin48613%2FaDSCF0710.jpg&type=sc960_832" alt="이미지 설명" />
+        </div><p class="img-text">조군등갈비<p><br>경기 안양시 동안구 인덕원로 16번길 24 1층<br>인덕원역 5번출구에서 244m</p></p>
+      </div>
+      
+    </div>
+  </body>
+</html>
